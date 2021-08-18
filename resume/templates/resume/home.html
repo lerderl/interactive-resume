@@ -1,10 +1,104 @@
-<!DOCTYPE html>
+{% load static %}
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>Home</title>
+  <link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-<center>My name is Olukunle Joseph Tomisin</center>
+<center><h1>Olukunle Joseph Tomisin</h1></center>
+  <br>
+	<div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card card-body h-100  border-info" id="profile-wrapper">
+            <img id="profile-pic" src="{% static 'images/mine.jpg' %}" >
+            <hr>
+            <h4>Hi I'm Joseph!</h4>
+            <p>I’m a Computer Science major who believes that my fast learning abilities, commitment to succeed, and
+              willingness to work with others and learn makes me an asset to any team. </p>
+          </div>
+        </div>
+
+        <div class="col-md-9">
+          <div class="card card-body h-100  border-info">
+            <h4>EDUCATION</h4>
+            <hr>
+            <p>B.Sc Computer Science, Caleb University, Lagos<br> October 2018 - present<br> CGPA: 4.77/5.0</p>
+
+            <p>SSCE, Jextoban Secondary School, Lagos, Nigeria.<br> Sept 2000 - July 2006</p>
+
+            <p>
+              I've learnt a bit of Ruby on Rails as well as React, and just recently concluded the Zuri internship
+              where I was introduced to the python programming language. <br> I'm also a Cisco Certified Network
+              Associate <br>I'm currently involved in the HNGi8 internship. <br> You can click on any of the images
+              below to access the Zuri's team website and find out more.
+            </p>
+
+            <ul class="social-links">
+              <li><a href="https://internship.zuri.team/enrollment"><img class="social" src="{% static 'images/hng.png' %}"></a></li>
+              <li><a href="https://ingressive.org/"><img class="social" src="{% static 'images/I4G.png' %}"></a></li>
+              <li><a href="https://zuri.team"><img class="social" src="{% static 'images/Zuri.png' %}"></a></li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h5>CONTACT</h5>
+            <hr>
+            <p>Phone number: +(234) 8034454103</p>
+            <p>Email address: josepholukunle11077@gmail.com</p>
+            <p>Home address: 19/21, Julius Elebiju Street, Ketu, Lagos</p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h5>SKILLS</h5>
+            <hr>
+            <p>Python, Ruby on Rails, CSS, JavaScript, React, JAVA, C/C++, HTML, Cloud resources, EIGRP, DHCP, FHRP,
+              GRE, IPv4 and IPv6 addressing, Infrastructure components, LAN switching, Network Management,
+              Programmability, Security, and Topologies, OSPF, PPPoE, QoS, RIPv2, Static and Dynamic Routing,
+              Troubleshooting, WAN Topologies, eBGP</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+			<h5>Relevant experience</h5>
+			<hr>
+			<p>Industrial Training Student internship, H&O Automation Systems Limited. <br> Oct 2015 - Feb 2016</p>
+
+			<p>Intern at Relay during my Student Industrial Work Experience Scheme (SIWES) <br>
+              Jun 2020 - Nov 2020</p>
+		  </div>
+		</div>
+
+		<div class="col-md-6">
+		  <div class="card card-body h-100">
+			<h5>Get in touch</h5>
+			<hr>
+            <p>You can also get in touch with me using the form below</p>
+			<form method="post">
+              {% csrf_token %}
+              {{form.as_p}}
+              <button type="submit">Submit</button>
+            </form>
+
+		  </div>
+		</div>
+      </div>
+	<br>
+  </div>
+
 </body>
 </html>
