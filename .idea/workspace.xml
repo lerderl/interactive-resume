@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26defbaa-c482-492f-b63c-8f4282baa4d7" name="Default Changelist" comment="Added Pipfile and Pipfile.lock" />
+    <list default="true" id="26defbaa-c482-492f-b63c-8f4282baa4d7" name="Default Changelist" comment="Edited an image">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629274238699</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Edited an image">
+      <created>1629275094926</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1629275094926</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +109,7 @@
     <MESSAGE value="Resume page ready and added static files for production" />
     <MESSAGE value="Heroku config" />
     <MESSAGE value="Added Pipfile and Pipfile.lock" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Pipfile and Pipfile.lock" />
+    <MESSAGE value="Edited an image" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited an image" />
   </component>
 </project>
