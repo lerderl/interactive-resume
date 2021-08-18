@@ -25,7 +25,7 @@ SECRET_KEY = '1&9rv!9f!bgupwl)ho(s6*ij#pxe7m0o@!il!8afq5*g!==8w!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -36,12 +36,14 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
     'resume'
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -123,6 +125,6 @@ MEDIA_URL = '/images/'
 
 STATICFILES_DIRS = [str(BASE_DIR.joinpath('static'))]
 STATIC_ROOT = STATIC_ROOT = str(BASE_DIR.joinpath('staticfiles'))
-STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
