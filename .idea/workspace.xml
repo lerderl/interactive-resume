@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26defbaa-c482-492f-b63c-8f4282baa4d7" name="Default Changelist" comment="Heroku config">
-      <change afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="26defbaa-c482-492f-b63c-8f4282baa4d7" name="Default Changelist" comment="Added Pipfile and Pipfile.lock" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629273601306</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Pipfile and Pipfile.lock">
+      <created>1629274238699</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1629274238699</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +99,7 @@
     <MESSAGE value="Edited the homepage displaying my name" />
     <MESSAGE value="Resume page ready and added static files for production" />
     <MESSAGE value="Heroku config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Heroku config" />
+    <MESSAGE value="Added Pipfile and Pipfile.lock" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Pipfile and Pipfile.lock" />
   </component>
 </project>
