@@ -22,7 +22,8 @@ def home(request):
                 send_mail(subject, message, '', ['josepholukunle@gmail.com'])
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
-            return HttpResponse("Thank you for contacting me. I'll get back in touch with you as soon as possible")
+            return HttpResponse("<center style='background-color: lightgrey'><h1>Thank you for contacting me. I'll get "
+                                "back in touch with you as soon as possible</h1></center>")
             return redirect("resume:home")
 
     form = ContactForm()
