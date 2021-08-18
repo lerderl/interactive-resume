@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26defbaa-c482-492f-b63c-8f4282baa4d7" name="Default Changelist" comment="Some debugging">
-      <change afterPath="$PROJECT_DIR$/name.py" afterDir="false" />
+    <list default="true" id="26defbaa-c482-492f-b63c-8f4282baa4d7" name="Default Changelist" comment="Added a file that contains a program which prints my name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume/templates/resume/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/resume/templates/resume/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629278285604</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added a file that contains a program which prints my name">
+      <created>1629282181479</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1629282181479</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +177,7 @@
     <MESSAGE value="Edited an image" />
     <MESSAGE value="Reverted some changes" />
     <MESSAGE value="Some debugging" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some debugging" />
+    <MESSAGE value="Added a file that contains a program which prints my name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a file that contains a program which prints my name" />
   </component>
 </project>
