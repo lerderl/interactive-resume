@@ -41,3 +41,13 @@ a, a:hoverx{
   color: #3b3d3b;
 	text-decoration: none;
 }
+
+textarea {
+  width: 100%;
+  padding: 20px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  border: 1px solid #dbdbdb;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .06);
+}
